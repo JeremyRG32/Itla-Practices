@@ -1,4 +1,5 @@
-﻿List<decimal> typedNumbers = new List<decimal>();
+﻿//Jeremy Reyes Gonzalez 2024-0224
+List<decimal> typedNumbers = new List<decimal>();
 
 decimal result = 0;
 int typedOption = 1;
