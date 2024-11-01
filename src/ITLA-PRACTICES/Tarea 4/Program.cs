@@ -1,4 +1,5 @@
 ﻿using Tarea_4;
+//Jeremy Reyes Gonzalez Matricula: 2024-0224
 Console.WriteLine("----------------Tema 1 Clase Persona----------------");
 Person p1 = new Person ("Juan", "Perez", 34, false, "12345678");
 Person p2 = new Person("Julia", "Mejia", 65, true, "098765432");
@@ -52,7 +53,7 @@ Console.WriteLine("----------------Tema 5 Clase Fraccion----------------");
 Fraccion fraccion1 = new Fraccion(25,2);
 Console.WriteLine(fraccion1.Add(30, 4)); // 25/2 + 30/4 = 20
 Console.WriteLine(fraccion1.Substract(30,4)); // 25/2 - 30/4 = 5
-Console.WriteLine(fraccion1.multiply(30,4)); // 25/2 / 30/4 = 93.72
-Console.WriteLine(fraccion1.divide(30, 4));
+Console.WriteLine(fraccion1.multiply(30,4)); // 25/2 * 30/4 = 93.72
+Console.WriteLine(fraccion1.divide(30, 4));  // 25/2 / 30/4 = 1.66 
 
 Console.WriteLine("-----------------------------------------------------\n");
