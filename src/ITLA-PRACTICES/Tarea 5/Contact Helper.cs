@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Tarea_5
+﻿namespace Tarea_5
 {
     public static class Contact_Helper
     {
@@ -83,7 +75,6 @@ namespace Tarea_5
                 Console.WriteLine("Por favor, ingrese un número válido para el ID.");
             }
         }
-          
         public static void ModifyContact(List<Contact> contacts)
         {
             try
@@ -138,7 +129,6 @@ namespace Tarea_5
                 Console.WriteLine(e.Message);
             }
         }
-
         public static void DeleteContact(List<Contact> contacts)
         {
             Console.WriteLine("Escriba el id del contacto a eliminar");
